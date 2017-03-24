@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+#MainHead {
+	background-image: url(../images/head_bg2.png);
+	background-repeat: repeat-x;
+	height: 61px;
+}
+#XTDX {
+	width: 800px;
+	height: 61px;
+	padding-top: 4px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	float: left;
+}
+#SysMenu {
+	width: 258px;
+	height: 61px;
+	padding-left: 2px;
+	float: right;
+}
+
+#SysMenu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+ 
+#Footer {
+	text-align: center;
+	color: #79F;
+	margin-top: 3px;
+	font-size: 13px;
+}
+.nav {
+    background-image:url(../images/icon_project.gif);
+}
+.person_tabs {
+	background-image:url(../images/person_tabs.png);
+}
+.info_tabs {
+	background-image:url(../images/info_tabs.png);
+}
+.project_tabs {
+	background-image:url(../images/project_tabs.png);
+}
+.contract_tabs {
+	background-image:url(../images/contract_tabs.png);
+}
+.money_tabs {
+	background-image:url(../images/money_tabs.png);
+}
+.execute_tabs {
+	background-image:url(../images/execute_tabs.png);
+}
+.service_tabs {
+	background-image:url(../images/service_tabs.png);
+}
+.customer_tabs {
+	background-image:url(../images/customer_tabs.png);
+}
+.fax_tabs {
+	background-image:url(../images/fax_tabs.png);
+}
+.settings_tabs {
+	background-image:url(../images/settings_tabs.png);
+}
+.search_btn {
+	background-image:url(../images/search_btn.png);
+}
+.ext_xls {
+	background-image:url(../images/ext_xls.gif);
+}
+.add_btn {
+	background-image:url(../images/add.png);
+}
+.remove_btn {
+	background-image:url(../images/remove.png);
+}
+.modify_btn {
+	background-image:url(../images/plugin.gif);
+}
+.ok_btn {
+	background-image:url(../images/ok_btn.png);
+}
+.stop_btn {
+	background-image:url(../images/stop_btn.gif);
+}
+.reset_btn {
+	background-image:url(../images/reset.png);
+}
+.login_btn {
+	background-image:url(../images/login_btn.png);
+}
+.exit_btn {
+	background-image:url(../images/exit_btn.png);
+}
+.upload_btn {
+	background-image:url(../images/upload_btn.png);
+}
+.apply_btn {
+	background-image:url(../images/apply_btn.png);
+}
+.printer_btn {
+	background-image:url(../images/printer_btn.png);
+}
+.stat_btn {
+	background-image:url(../images/stat_btn.png);
+}
+.col_btn {
+	background-image:url(../images/col_btn.png);
+}
+.pie_btn {
+	background-image:url(../images/pie_btn.png);
+}
+.line_btn {
+	background-image:url(../images/line_btn.png);
+}
+.bar_btn {
+	background-image:url(../images/bar_btn.png);
+}
+.tools_btn {
+	background-image:url(../images/tools_btn.png);
+}
+.menuMain li {
+	height: 22px;
+	margin: 0px;
+	padding-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	cursor: pointer;
+}
+
+.menu {cursor:pointer}
+.menuMain li:hover {
+	background-color: #D0DEEB;	
+}
+
+#DatetimeView {
+	height: 52px;
+	width: 162px;
+	background-image:url(../images/signin1.png);
+	background-repeat: no-repeat;
+	padding-top: 2px;
+	margin-top: 4px;
+	float: left;
+}
+
+#DatetimeView:hover {
+	border-top-style: solid;
+	border-right-style: outset;
+	border-bottom-style: outset;
+	border-left-style: solid;
+	border-width: 1px;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	cursor: crosshair;
+}
+
+#DateStr {
+	width: 52px;
+	height: 44px;
+	margin: 2px;
+	float: left;
+}
+
+
+#DateId {
+	margin-top: 8px;
+	margin-left: 12px;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #F90;
+}
+
+#WeekId {
+	margin-left: 14px;
+	font-size: 13px;
+	font-family: "幼圆";
+	color: #075CA5;
+	margin-top: 2px;
+}
+
+#TimeId {
+	margin-top: 7px;
+	margin-left: 22px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#WelcomeId {
+	margin-left: 12px;
+	font-size: 12px;
+	margin-top: 3px;
+	color: #075CA5;
+}
+
+#LoginInfo {
+	height: 44px;
+	margin: 2px;
+	float: left;
+	width: 100px;
+}
+
+#Logout {
+	height: 52px;
+	width: 90px;
+	padding-top: 2px;
+	margin-top: 4px;
+	float:right;
+}
+
+#Logout ul {
+	float:right;
+	margin-top: 4px;
+	margin-left: 4px;
+	margin-right: 6px;
+	font-size: 13px;
+	color: #075CA5;
+}
+
+#Logout ul li {
+	margin-bottom: 4px;
+}
+
+#Logout img {
+	margin-left: 4px;
+}
+
+#Logout img:hover {
+	border-top-style: solid;
+	border-right-style: outset;
+	border-bottom-style: outset;
+	border-left-style: solid;
+	border-width: 1px;
+	border-top-color: #FFF;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #FFF;
+}
+.bull-line li {
+	margin:0 0 0 40px;
+	height: 18px;
+	font-size: 13px;
+	list-style-image : url(../images/bull_h.gif);
+}
+
+.bull-line li a:link,a:visited{
+	text-decoration: none;
+	color: black;
+}
+.bull-line li a:hover,a:active{
+	text-decoration: underline;
+	color: red;
+}
+.news-line li {
+	margin:0 0 0 30px;
+	font-size: 13px;
+	list-style-image : url(../images/news_h.png);
+}
+
+.news-line li a:link,a:visited{
+	text-decoration: none;
+	color: black;
+}
+.news-line li a:hover,a:active{
+	text-decoration: underline;
+	color: red;
+}
+.projs-line li {
+	margin:0 0 0 30px;
+	height: 18px;
+	font-size: 13px;
+	list-style-image : url(../images/icon_project.gif);
+}
+.projs-line li a:link,a:visited{
+	text-decoration: none;
+	color: black;
+}
+.projs-line li a:hover,a:active{
+	text-decoration: underline;
+	color: red;
+}

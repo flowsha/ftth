@@ -1,0 +1,14 @@
+<uwsgi>                                                                         
+    <socket>127.0.0.1:9090</socket>
+    <pidfile>/var/run/uwsgi.ftth.pid</pidfile>
+    <master/>
+    <workers>4</workers>
+    <harakiri>30</harakiri>
+    <limit-as>128</limit-as>
+    <max-requests>1000</max-requests>
+    <chdir>/var/www/ftth</chdir>
+    <pythonpath>..</pythonpath>
+    <module>ftth</module>
+    <daemonize>/var/log/uwsgi.ftth.log</daemonize>
+</uwsgi>
+
